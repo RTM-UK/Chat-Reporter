@@ -1,0 +1,12 @@
+name: ReportPlugin
+version: 1.0
+main: me.RMT.reportplugin.main
+api-version: '1.21'
+
+commands:
+  report:
+    description: Report a player
+    usage: /report <player> <reason>
+  link:
+    description: Link a Discord Webhook to reports
+    usage: /link <webhook>
